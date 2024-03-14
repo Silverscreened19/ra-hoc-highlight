@@ -3,7 +3,7 @@ import { IData } from "./List";
 import Popular from "./Popular";
 import New from "./New";
 
-export default function Wrap(Component: FC<IData>) {
+export default function Wrapper(Component: FC<IData>) {
   return function (props: IData) {
     const { views } = props;
 

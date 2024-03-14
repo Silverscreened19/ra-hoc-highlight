@@ -1,5 +1,5 @@
 import { IData } from "./List";
-import Wrap from "./Wrap";
+import Wrap from "./Wrapper";
 
 function Video(props: IData) {
   return (
@@ -15,4 +15,7 @@ function Video(props: IData) {
   );
 }
 
-export default Wrap(Video);
+
+const WrappedVideo = Wrap(Video)
+
+export default WrappedVideo;

@@ -7,4 +7,4 @@ export default function Popular(props: {children: ReactElement}) {
             {props.children}
         </div>
     )
-};
+}

@@ -1,5 +1,5 @@
 import { IData } from "./List";
-import Wrap from "./Wrap";
+import Wrap from "./Wrapper";
 
 function Article(props: IData) {
     return (
@@ -8,6 +8,8 @@ function Article(props: IData) {
             <p className="views">Прочтений: {props.views}</p>
         </div>
     )
-};
+}
 
-export default Wrap(Article);
+const WrappedArticle = Wrap(Article)
+
+export default WrappedArticle;
