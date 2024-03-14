@@ -1,4 +1,8 @@
 Подсвечивание блоков
+
+[![Build status](https://ci.appveyor.com/api/projects/status/a3jdy6abfe9qe4li?svg=true)](https://ci.appveyor.com/project/Silverscreened19/ra-hoc-highlight)
+
+[GitHub Pages](https://silverscreened19.github.io/ra-hoc-highlight/)
 ===
 
 На нашем сайте есть блоки со статьями и с видеозаписями.
